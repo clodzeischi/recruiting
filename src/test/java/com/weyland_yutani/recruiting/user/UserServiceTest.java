@@ -28,7 +28,7 @@ public class UserServiceTest {
             1L,
             "soldier_a",
             "supersecrethash",
-            ERole.ROLE_ADMIN
+            Role.ADMIN
     );
 
     @Test
@@ -42,7 +42,7 @@ public class UserServiceTest {
 
         assertThat(result.getAuthorities())
                 .extracting("authority")
-                .containsExactly(ERole.ROLE_ADMIN.name());
+                .containsExactly(Role.ADMIN.name());
     }
 
     @Test
