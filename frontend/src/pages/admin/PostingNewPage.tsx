@@ -1,5 +1,5 @@
-function DashboardPage() {
-    return <div>Dashboard Page</div>
+function PostingNewPage() {
+    return <div>Posting New Page</div>
 }
 
-export default DashboardPage
+export default PostingNewPage
